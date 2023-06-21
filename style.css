@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Kanit', sans-serif;
+    transition: .3s;
+    scroll-behavior: smooth;
+}
+.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body {
+    background: #fefefe;
+    background-image: url(./image/bg-star.jpg);
+}
+span {
+    text-align: center;
+    color: #fff;
+}
+.main_body {
+    width: 100%;
+    height: auto;
+}
+.main_body .image_top {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.main_body .main_content1 {
+    margin-top: -6vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+.main_body .main_content2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_content2 .btn_apk {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    animation: link-img 2s ease infinite;
+    z-index: -5;
+}
+.btn_apk .btn1 {
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-radius: 15px;
+}
+
+/* apk animate keyframe */
+@keyframes link-img {
+    0% {
+        transform: scale(0.95, 0.95);
+        rotate: 0deg;
+    }
+    40% {
+        transform: scale(1, 1);
+        rotate: 0deg;
+    }
+    60% {
+        transform: scale(1, 1);
+        rotate: 0deg;
+    }
+    100% {
+        transform: scale(0.95, 0.95);
+        rotate: 0deg;
+    }
+}
+
+/* gold card */
+.main_card {
+    padding: 30px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3%;
+}
+.main_card .card_gold {
+    width: 30%;
+}
+.main_card .card_gold .img_card{
+    width: 60%;
+    margin: auto;
+}
+
+/* logo */
+.cover1 {
+    width: 100%;
+    object-fit: fill;
+}
+.main_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main_logo li {
+    width: 12%;
+}
+.main_logo .top, .main_logo .bottom {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.parent{
+    position: fixed;
+    gap: 10px; 
+    z-index: 50;
+    gap: 10px;
+    
+}
+.fix_btn {
+    display: flex;
+    flex-direction: column;
+}
+.fix_btn img{
+    width: 100%;
+    background: #fefefe;
+    border-radius: 50%;
+} 
+
+.free_ {
+    padding: 20px;
+}

@@ -1,0 +1,102 @@
+
+@media (min-width: 1500px) {
+    .btn_apk1 {
+        margin-top: -250px;
+    }
+}
+@media (max-width: 1500px) {
+    .btn_apk1 {
+        margin-top: -180px;
+    }
+}
+@media (min-width: 1000px) {
+    .main_body .main_content2 {
+        width: 50%;
+    }
+    .fix_btn img {
+        width: 130px;
+        height: 130px;
+    }
+    .btn_apk .btn1 {
+        width: 230px;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .main_body .main_content2 {
+        width: 100%;
+        padding: 0 50px;
+    }
+    /* .fix_btn img {
+        width: 40px;
+        height: 40px;
+    } */
+    .btn_apk .btn1 {
+        width: 180px;
+        margin: 0 10px;
+    }
+    .btn_apk1 {
+        margin-top: -100px;
+    }
+}
+@media (max-width: 600px) {
+    .main_body .main_content2 {
+        padding: 0 20px;
+    }
+    span,p,h1,h2,h3{
+        font-size: medium;
+    }
+    .btn_apk1 {
+        margin-top: -20px;
+    }
+}
+@media (min-width: 790px) {
+    .btn_apk .btn1 {
+        width: 300px;
+        margin: 0 15px;
+    }
+    .fix_btn img {
+        width: 80px;
+        height: 80px;
+    }
+    .parent {
+        bottom: 40px;
+        right: 30px;
+    }
+}
+@media (max-width: 790px) {
+    footer p {
+        font-size: smaller;
+    }
+    .fix_btn img {
+        width: 50px;
+        height: 50px;
+    }
+    .fix_btn img {
+        width: 50px;
+        height: 50px;
+    }
+    .parent {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+@media (max-width: 502px) {
+    .btn_apk .btn1 {
+        width: 140px;
+        margin: 0 7px;
+    }
+    .main_card h2{
+        font-size: smaller;
+    }
+}
+@media (max-width: 502px) {
+    .btn_apk1 {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 811px) {
+    .btn_apk1 {
+        margin-top: 20px;
+    }
+}
